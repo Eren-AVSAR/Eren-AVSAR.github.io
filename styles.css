@@ -11,10 +11,6 @@
     .fab:hover {
     opacity: 0.6;
     }
-    .fa-facebook-f {
-    background: #3B5998;
-    color: white;
-    }
     .fa-discord {
         background: linear-gradient(to right, #7280fe, #5261e8);
         color: white;
@@ -23,38 +19,12 @@
     background: linear-gradient(to right, #088bf6, #55ACEE);;
     color: white
     }
-    .fa-google {
-    background: linear-gradient(to right, #908f8f, #3a3a3a);
-    color: white;
-    }
-    
-    .fa-linkedin {
-    background: #007bb5;
-    color: white;
-    }
     .fa-youtube {
     background:  linear-gradient(to right, #f95454, #bb0000);
     color: white;
     }
     .fa-instagram {
     background: linear-gradient(to right, #f05897, #6e47f1);
-    color: white;
-    }
-    .fa-pinterest {
-    background: #cb2027 linear-gradient(to right, #908f8f, #3a3a3a) ;
-    color: white;
-    }
-    .fa-snapchat-ghost {
-    background: #fffc00;
-    color: white;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    }
-    .fa-skype {
-    background: #00aff0;
-    color: white;
-    }
-    .fa-android {
-    background: #a4c639;
     color: white;
     }
     .fa-spotify{
@@ -246,37 +216,6 @@ p {
     font-size: 1.2em;
     margin-bottom: 20px;
 }
-
-.btn {
-    display: inline-block;
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-.btn:hover {
-    background-color: #555;
-}
-.module-small, .module-small a {
-    background-color: #ffffff !important;
-    color: #666666;
-}
-.ornek{
-width: 900px;
-margin:auto;
-}
-.sola-kaydir{
-float:left;
-padding:0 10px 10px 0;
-}
-
-::selection {
-    background-color: #222121; /* Mavi renk */
-    color: #fff; /* Beyaz renk */
-}
 /* Sağdaki kaydırma çubuğu */
 ::-webkit-scrollbar {
     width: 4px /* Kaydırma çubuğunun genişliği */
@@ -339,4 +278,27 @@ padding:0 10px 10px 0;
 .project-info a:hover {
     background-color: #555;
 }
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
 
+.navbar {
+    overflow: hidden;
+    text-align: center;
+    max-width: 600px; /* Maksimum genişlik belirle */
+    margin: 0 auto; /* Ortala */
+}
+
+.navbar a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
