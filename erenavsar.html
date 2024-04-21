@@ -3,20 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="avsar.webp" type="image/avsar" />
     <title>Eren Avşar</title>
     <link rel="stylesheet" href="styles.css">
-   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <style>
+        .logo {
+            position: absolute; /* Logonun sabit kalması için */
+            top: 10px; /* Yüksekliği ayarlayın */
+            left: 5px; /* Sol kenardan uzaklığı ayarlayın */
+            width: 100px; /* Genişliği ayarlayın */
+            height: auto; /* Yükseklik otomatik ayarlanacak */
+            z-index: 30; /* Diğer elemanların üstünde kalması için z-index değeri */
+        }
+
+    </style>
 </head>
 <body>
     
     <div class="navbar">
         
-        <a href="#education">Eğitim</a>
+        <a href="#education" >Eğitim</a>
         <a href="#projects">Projeler</a>
         <a href="#contact">İletişim</a>
-        <a href="#" style="display: inline-block;">
-            <img src="ataturk-32342.png" alt="Atatürk Resmi" style="width: 100px; vertical-align: middle;">
-        </a>
+        
         
             
     </div>
@@ -66,15 +76,6 @@
                         <a href="https://www.instagram.com/atamizorg/">Daha Fazla...</a>
                     </div>
                 </div>
-                <div class="project-card">
-                    <div class="project-img">
-                    </div>
-                    <div class="project-info">
-                        <h3>Töz</h3>
-                        <p> Gerçekliğimiz olan Türklüğümüz ve Cumhuriyet İlkelerimiz doğrultusunda yayın hayatına başlamış bulunuyoruz. T’ÖZ’ün varlık amacı Türk’e söz olmak, olayların ve konuların özünü sizlere ulaştırmaktır. Sizleri de Türk’e öz, Türk’e söz olmaya, T’ÖZ’ü takibe davet ediyoruz.</p>
-                        <a href="https://www.instagram.com/turkeoz/">Daha Fazla...</a>
-                    </div>
-                </div>
             </section>
             
           <!-- Sosyal Medya Bağlantıları
@@ -105,11 +106,10 @@
 
 
 
-
+            <img src="Atatürk.svg" alt="Atatürk" class="logo">
 
 
     </div>
-
     <footer>
         <div class="container">
             <p>&copy; 2024 Eren-AVSAR</p>
