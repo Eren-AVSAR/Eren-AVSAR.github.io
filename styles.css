@@ -297,6 +297,15 @@ body {
     padding: 14px 20px;
     text-decoration: none;
 }
+.project-card2 {
+    width: 250px;
+    margin: 30px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    
+}
 
 .navbar a:hover {
     background-color: #ddd;
