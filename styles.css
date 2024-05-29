@@ -11,6 +11,10 @@
     .fab:hover {
     opacity: 0.6;
     }
+.fa-behance {
+        background: linear-gradient(to right, #1e4ce6, #5261e8);
+        color: white;
+        }
     .fa-discord {
         background: linear-gradient(to right, #7280fe, #5261e8);
         color: white;
