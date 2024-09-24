@@ -2,28 +2,28 @@
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" href="avsar.webp" type="image/avsar" />
+    <link rel="icon" href="avsar.webp" type="image/webp" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hoş Geldiniz</title>
     <link rel="stylesheet" href="styles.css">
     <style>
-         .logo {
-            position: absolute; /* Logonun sabit kalması için */
-            top: 10px; /* Yüksekliği ayarlayın */
-            left: 5px; /* Sol kenardan uzaklığı ayarlayın */
-            width: 100px; /* Genişliği ayarlayın */
-            height: auto; /* Yükseklik otomatik ayarlanacak */
-            z-index: 30; /* Diğer elemanların üstünde kalması için z-index değeri */
+        .logo {
+            position: absolute;
+            top: 10px;
+            left: 5px;
+            width: 100px;
+            height: auto;
+            z-index: 30;
         }
-        
+        .mors-gizli {
+            visibility: hidden; /* Görünmez yapar */
+        }
     </style>
 </head>
 <body>
-    
-    <!-- Ana Hoş Geliniz Sayfası
- -->
+
+    <!-- Ana Hoş Geliniz Sayfası -->
     <div class="welcome-container">
-        
         <div class="welcome-content">
             <h1 class="fade-in">🤗</h1>
             <h1 class="fade-in">Hoş Geldiniz!</h1>
@@ -31,6 +31,11 @@
             <a href="erenavsar.html" class="btn fade-in">Hakkımda Daha Fazla</a>
         </div>
     </div>
+    
     <img src="Atatürk.svg" alt="Atatürk" class="logo">
+
+    <!-- Mors alfabesi ile gizli mesaj -->
+    <p class="mors-gizli">-... . -. / -... ..- .-. .- -.-- .- / ... .--. . -.-. - .-. ..- -- / --- - .. -- --.. .-.. .. / -.-. ..-. - / .-.. --- .- -.. .. -. --.</p>
+    
 </body>
 </html>
